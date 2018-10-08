@@ -1,0 +1,45 @@
+body{
+	background-color: #e6e6e6;
+}
+#pie {
+	margin-top: 80px;
+}
+#gauge{
+	margin-top: 55px;
+}
+
+.jumbotron{
+	background: rgba(92, 92, 61, .8);
+	min-height: 250px;
+}
+
+.custom-panel{
+	margin-top: 190px;
+}
+.panel-primary {
+    border-color: #e3e3e3;
+}
+.panel-primary>.panel-heading{
+	background-color:rgba(92, 92, 61, .8);
+	border-color:#e3e3e3; 
+}
+
+.panel-body {
+    background-color: #f5f5f5;
+}
+
+.banner-text h1{
+	font-family: "Source Sans Pro";
+	color: #ffffff;
+	font-size: 53px;
+	letter-spacing: 10px;
+	font-weight: 600;
+}
+
+.banner-text p{
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}

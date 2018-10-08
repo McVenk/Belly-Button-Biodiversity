@@ -28,11 +28,6 @@ function pieChart(data) {
 
     let layout = {
         title: '<b> Belly Button Pie Chart </b>',
-        margin: {
-          l: 0,
-          b: 50,
-          t: 50,
-        },
         plot_bgcolor: 'rgba(0, 0, 0, 0)',
         paper_bgcolor: 'rgba(0, 0, 0, 0)',
     };
@@ -108,7 +103,7 @@ function gaugeChart(data) {
     textinfo: 'text',
     textposition:'inside',
     textfont:{
-      size : 18,
+      size : 16,
       },
     marker: {colors:['rgba(6, 51, 0, .5)', 'rgba(9, 77, 0, .5)', 
                            'rgba(12, 102, 0 ,.5)', 'rgba(14, 127, 0, .5)',
@@ -134,8 +129,6 @@ function gaugeChart(data) {
       }],
 
     title: '<b> Belly Button Washing Frequency</b> <br> Scrub Per Week',
-    height: 550,
-    width: 550,
     xaxis: {zeroline:false, showticklabels:false,
                showgrid: false, range: [-1, 1]},
     yaxis: {zeroline:false, showticklabels:false,

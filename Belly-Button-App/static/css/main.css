@@ -1,26 +1,21 @@
 body{
-	background-color: #e6e6e6;
-}
-#pie {
-	margin-top: 80px;
-}
-#gauge{
-	margin-top: 55px;
+	background-color: rgb(242, 242, 242,.5);
 }
 
 .jumbotron{
-	background: rgba(92, 92, 61, .8);
+	background: url('../images/banner.jpg');
 	min-height: 250px;
+	background-size: cover;
 }
 
 .custom-panel{
-	margin-top: 190px;
+	margin-top: 60px;
 }
 .panel-primary {
     border-color: #e3e3e3;
 }
 .panel-primary>.panel-heading{
-	background-color:rgba(92, 92, 61, .8);
+	background-color:#333;
 	border-color:#e3e3e3; 
 }
 
@@ -43,3 +38,4 @@ body{
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
+

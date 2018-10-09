@@ -97,7 +97,7 @@ function gaugeChart(data) {
       name: 'WASH FREQ',
       text: data.WFREQ,
       hoverinfo: 'text+name'},
-    { values: [50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50/9, 50],
+    { values: [1, 1, 1, 1, 1, 1, 1, 1, 1, 9],
     rotation: 90,
     text: ['8-9', '7-8', '6-7', '5-6', '4-5', '3-4', '2-3', '1-2', '0-1',''],
     textinfo: 'text',
@@ -111,8 +111,8 @@ function gaugeChart(data) {
                            'rgba(202, 209, 95, .5)','rgba(210, 206, 145, .5)', 
                            'rgba(232, 226, 202, .5)','rgba(255, 255, 255, 0)'
                     ]},
-    labels: ['8-9', '7-8', '6-7', '5-6', '4-5', '3-4', '2-3', '2-1', '0-1',' '],
-    hoverinfo: 'label',
+    labels: ['8-9', '7-8', '6-7', '5-6', '4-5', '3-4', '2-3', '2-1', '0-1',''],
+    hoverinfo: 'text',
     hole: .5,
     type: 'pie',
     showlegend: false
